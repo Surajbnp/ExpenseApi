@@ -1,5 +1,4 @@
 const { Router } = require("express");
-const jwt = require("jsonwebtoken");
 const RoleModel = require("../models/roleModel");
 
 let RoleRoute = Router();
