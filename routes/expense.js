@@ -34,13 +34,13 @@ ExpenseRoute.get("/summary", authentication, async (req, res) => {
   if (roleType.name === "user") {
     try {
       let userData = await ExpenseModel.find({ userId });
-      res.status(200).send(userData);
+      res.status(200).send({[username] : userData});
     } catch (err) {
       console.log(err);
     }
   } else if (roleType.name === "admin") {
     let adminData = await ExpenseModel.find();
-    res.status(200).send({adminData});
+    res.status(200).send(adminData);
   }
 });
 
