@@ -9,4 +9,4 @@
 /expense/summary - for fetching expense data (both for user or admin)
 
 # Deployed Link 
-
+https://expenseapi-production-0f96.up.railway.app/
