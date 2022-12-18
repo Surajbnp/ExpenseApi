@@ -10,21 +10,21 @@
 
 ## Users 
 
-1. User 1
+### User 1
 - username : suraj
 - password : Suraj8809
 
-2. User 2 
+### User 2 
 - username : kumar
 - password : Suraj8809
 
-3. User 3
+### User 3
 - username : gupta
 - password : Suraj8809
 
 ## Admin
 
-1. Admin 
+### Admin 
 - username : akash
 - password : Suraj8809
 
