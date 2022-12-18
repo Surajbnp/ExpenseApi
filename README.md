@@ -8,6 +8,8 @@
 - /expense - for creating the expense (Protected route)
 - /expense/summary - for fetching expense data (both for user or admin & protected route)
 
+## Users 
+
 1. User 1
 - username : suraj
 - password : Suraj8809
@@ -20,7 +22,9 @@
 - username : gupta
 - password : Suraj8809
 
-4. User 2 
+## Admin
+
+1. Admin 
 - username : akash
 - password : Suraj8809
 
