@@ -5,6 +5,7 @@ const cors = require("cors");
 const { RoleRoute } = require("./routes/role.js");
 const SignupRoute = require("./routes/signup");
 const LoginRoute = require("./routes/login");
+const ExpenseRoute = require("./routes/expense");
 
 app.use(cors());
 app.use(express.json());
@@ -16,6 +17,7 @@ app.get("/", (req, res) => {
 app.use("/role", RoleRoute);
 app.use("/signup", SignupRoute);
 app.use("/login", LoginRoute)
+app.use("/expense", ExpenseRoute)
 
 const PORT = process.env.PORT || 8080;
 
