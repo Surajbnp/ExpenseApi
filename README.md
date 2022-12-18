@@ -8,6 +8,7 @@
 - /expense - for creating the expense (Protected route)
 - /expense/summary - for fetching expense data (both for user or admin & protected route)
 
++ User 1
 
 
 # Deployed Link 
