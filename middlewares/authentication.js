@@ -6,7 +6,7 @@ const authentication = (req, res, next) => {
 
   jwt.verify(token, process.env.SECRET, function (err, decoded) {
     if (err) {
-      res.status(401).send({ success : false, msg: "Unauthorized" });
+      res.status(401).send({ success : false, message: "Unauthorized" });
     } else {
       req.body.userId = decoded.userId;
       next();
